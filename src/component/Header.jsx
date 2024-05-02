@@ -1,6 +1,5 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { motion } from "framer-motion";
 
 const Header = ({ setMenuOpen, menuOpen }) => {
   return (

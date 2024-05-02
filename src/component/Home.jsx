@@ -1,19 +1,9 @@
-import React, { useRef } from "react";
-import { animate, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/vg.png";
 
 const Home = ({ ratio }) => {
-  const clientCount = useRef(null);
-  const projectCount = useRef(null);
-  const animationProjectsCount = () => {
-    animate(0, 10, {
-      duration: 0.5,
-      onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
-    });
-  };
-
   const animations = {
     h1: {
       initial: {

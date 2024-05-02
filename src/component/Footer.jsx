@@ -2,7 +2,6 @@ import React from "react";
 import {
   AiFillGithub,
   AiFillLinkedin,
-  AiFillYoutube,
   AiOutlineArrowUp,
 } from "react-icons/ai";
 import me from "../assets/prince.jpg";
